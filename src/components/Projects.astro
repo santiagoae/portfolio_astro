@@ -1,52 +1,51 @@
 ---
-const TAGS = {
-  angular: {
-    name: "Angular",
-    class: "bg-black text-white",
-    icon: "",
-  },
-  laravel: {
-    name: "Laravel",
-    class: "bg-white text-black",
-    icon: "",
-  },
-};
+import StackBadge from "./StackBadge.astro";
+import { TAGS } from "../utils/tags";
 
 const PROJECTS = [
   {
-    title: "Project 1",
+    title: "Clon de spotify",
     description:
-      "dadassragsadfsKLDFNJIKdfkasbdfhjkiasbdfkljasbdfkjhabsdflkjhabsdfjkhbasdjhkbf",
+      "Este proyecto es un clon de Spotify desarrollado utilizando Astro, un framework que facilita la integración de diferentes bibliotecas de frontend de manera agnóstica, como React, Svelte, entre otras. Astro permite construir aplicaciones optimizadas, combinando lo mejor de cada tecnología según las necesidades del proyecto.",
     link: "#",
-    github: "#",
-    image: "https://via.placeholder.com/300x200",
-    tags: [TAGS.angular, TAGS.laravel],
+    github: "https://github.com/santiagoae/clon-spotify-astro",
+    image: "/projects/clon_spoty.webp",
+    selectedTags: [TAGS.astro, TAGS.react, TAGS.svelte],
+  },
+  {
+    title: "Modelo GPT",
+    description:
+      'Este proyecto es un clon de ChatGPT que adapta el proyecto "web-llm" a una estructura basada completamente en JavaScript, Html y Css. Utiliza la API de WebGPU para aprovechar el rendimiento gráfico en el navegador y ejecuta un modelo previamente entrenado para resolver preguntas, todo directamente en el lado del cliente, sin necesidad de servidores externos.',
+    link: "#",
+    github: "https://github.com/santiagoae/gpt-free",
+    image: "/projects/clon_gpt.webp",
+    selectedTags: [TAGS.javascript, TAGS.html, TAGS.css],
   },
 ];
 ---
 
 {
-  PROJECTS.map(({ title, description, image, tags }) => (
-    <article>
+  PROJECTS.map(({ title, description, image, selectedTags, github }) => (
+    <article class="py-12" id="proyectos">
       <h3 class="text-2xl font-semibold text-sky-200 mb-2">{title}</h3>
       <p class="text-lg mb-4 text-pretty">{description}</p>
-      <ul class="flex gap-2 pb-4">
-        {tags.map((tag) => (
+      <ul class="flex gap-2 pb-6">
+        {selectedTags.map((tag) => (
           <li>
-            <span
-              class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}
-            >
-              tagicon
+            <StackBadge className={tag.className}>
               {tag.name}
-            </span>
+              <tag.icon class="size-4" />
+            </StackBadge>
           </li>
         ))}
       </ul>
-      <img
-        class="rounded shadow-2xl shadow-white/10"
-        src={image}
-        alt={`Captura de pantalla del proyecto ${image}`}
-      />
+      <a href={github} target="_blank" rel="noopener noreferrer">
+        <img
+          class="rounded shadow-2xl shadow-white/10 hover:scale-105 transition"
+          src={image}
+          alt={`Captura de pantalla del proyecto ${image}`}
+        />
+      </a>
     </article>
   ))
 }

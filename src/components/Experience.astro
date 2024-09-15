@@ -1,18 +1,32 @@
 ---
+import { TAGS } from "../utils/tags";
 import ExperienceItem from "./ExperienceItem.astro";
 
 const EXPERIENCES = [
   {
     date: "Actualmente...",
-    title: "Primerito",
-    description: "Es el prmer item de experiencia que tengo",
-    link: "cualquiera",
+    title: "Garantias Comunitarias",
+    responsabilities:
+      "1. Diseñar y perfeccionar el frontend de una aplicación interna con la ayuda de Angular, integrando módulos y funcionalidades dinámicas que se adapten y evolucionen con el tiempo, asegurando soluciones robustas y flexibles alineadas con los objetivos de negocio.\n\n2. Desarrollar y mantener APIs con Laravel, manejando la lógica de servidor y asegurando un intercambio de datos eficiente utilizando el ORM Eloquent para interactuar de forma transparente con la base de datos, creando y gestionando migraciones que aseguren estructuras consistentes y escalables en entornos de desarrollo.\n\n3. Gestionar bases de datos MySQL, asegurando consultas eficientes e integridad de los datos.\n\n4. Liderar desde el área tecnológica la integración con los servicios de Belltech.\n\n5. Asistir en la toma de decisiones dentro del grupo de liderazgo tecnológico para nuevos cambios y mejoras dentro de la empresa.\n\n",
+    goals:
+      "1. Migré la aplicación de Angular 16 a Angular 17, adaptando el concepto standalone a nivel general, además, implementé el uso de inject para inyección de dependencias e inicié el uso de signals para mejorar el rendimiento de la aplicación.\n\n2. Generé migraciones que ayudan a mantener la estructura de la base de datos en el tiempo, además, implementé nuevos endpoints y conexiones a servicios externos manteniendo la seguridad con jwt e integre aplicaciones externas a través de webhooks.\n\n3. Desarrollé consultas personalizadas para obtener información de forma más precisa y optimicé el acceso creando vistas que mejoran el rendimiento y la velocidad de recuperación de datos.\n\n4. Implementé junto a un equipo de ux, un bot de llamadas de alerta temprana que se encuentra en continuo desarrollo, para el cumplimiento de los requerimientos.\n\n5. Contribuí en la implementación de una metodología ágil para la gestión eficiente de requerimientos.\n",
+    tags: true,
   },
   {
-    date: "2024-09-14",
-    title: "Primerito",
-    description: "Es el prmer item de experiencia que tengo",
-    link: "cualquiera",
+    date: "oct. 2022 - abr.2023 - 7 meses",
+    title: "Tigo",
+    responsabilities:
+      "1. Planificar y ejecutar estrategias de digitalización de los procesos asignados al área de tecnología con el uso de la metodología scrum.\n\n2. Administrar la base de datos de uno de los niveles del ETL para filtrar la información correspondiente del área con el uso de Mysql.\n\n3. Apoyar e instruir al tecnólogo en formación para el desarrollo de sus funciones asignadas.\n\n",
+    goals:
+      "1. Realicé procesos automatizados que ayudaron en la entrega oportuna de trabajos a consultores lo que optimizó la entrega y gestión de pedidos con ayuda de Angular y Mysql.\n\n2. Desarrollé una aplicación en Angular con ayuda de Slim para el backend con la cual se monitoreó la auditoría a nivel nacional de las herramientas de los técnicos, con datos medibles para mejorar la calidad del servicio.\n\n3. Lideré la migración de una de las aplicaciones más importantes del área, que alcanzó la primera fase en 15 días subiendo la versión Slim.\n\n4. Desarrollé una bitácora para controlar las operaciones de alta relevancia con los temas a tratar durante el día utilizando Angular, slim y mysql para una conexión dinámica.\n\n5. Guié a una persona para aumentar la productividad y el aprendizaje continuo en el área asignada, logrando optimizar los tiempos de entrega de los diferentes procesos derivados con ayuda de tableros kanban.\n",
+    selectedTags: [
+      TAGS.angular,
+      TAGS.mysql,
+      TAGS.typescript,
+      TAGS.php,
+      TAGS.git,
+      TAGS.github,
+    ],
   },
 ];
 ---
