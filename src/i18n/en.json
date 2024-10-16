@@ -1,0 +1,23 @@
+{
+    "title": "Portfolio of Santiago Avendaño Escobar - Frontend Developer with 2+ years of experience.",
+    "description": "Hire Santiago to create your web application. Frontend developer specialized in creating unique applications.",
+    "mainTitle": "Hey, I'm Santiago AE",
+    "mainBadgeTitle": "Available for work",
+    "mainDescription": "+2 years of experience. Frontend Developer.<span class='text-yellow-400'> From Medellín, Colombia.</span> <span class='opacity-60'>Not everything is coding, also I share with the community and I inform with the best content creators devs.</span>",
+    "experienceTitle":"Professional Experience",
+    "projectsTitle":"Personal Projects",
+    "experiences": {
+        "date":"Currently...",
+        "title": "Garantias Comunitarias",
+        "reponsabilities": "1. Design and refine the frontend of an internal application with the help of Angular, integrating modules and dynamic functionalities that adapt and evolve over time, ensuring robust and flexible solutions aligned with business objectives.\n\n2. Develop and maintain APIs with Laravel, handling server logic and ensuring efficient data exchange using the Eloquent ORM to interact transparently with the database, creating and managing migrations that ensure consistent and scalable structures in development environments.\n\n3.Manage MySQL databases, ensuring efficient queries and data integrity.\n\n4. Lead from the technological area the integration with Belltech's services.\n\n5. Assist in decision making within the technology leadership group for new changes and improvements within the company. ",
+        "goals": "1. I migrated the application from Angular 16 to Angular 17, adapting the standalone concept at a general level, in addition, I implemented the use of inject for dependency injection and initiated the use of signals to improve the performance of the application.\n\n2. I generated migrations that help to maintain the database structure over time, in addition, I implemented new endpoints and connections to external services maintaining security with jwt and integrated external applications through webhooks.\n\n3. I developed custom queries to obtain information more accurately and optimized access by creating views that improve performance and speed data retrieval.\n\n4. Implemented along with a ux team, an early warning call bot that is under continuous development, for compliance requirements.\n\n5. I contributed in the implementation of an agile methodology for efficient requirements management."
+    },
+    "project_one":{
+        "title":"Spotify Clone",
+        "description": "This project is a Spotify clone developed using Astro, a framework that facilitates the integration of various frontend libraries in an agnostic manner, such as React, Svelte, among others. Astro allows for optimized building of applications, combining the best of each technology according to the project's needs."
+    },
+    "project_two":{
+        "title":"GPT Model",
+        "description": "This project is a ChatGPT clone that adapts the 'web-llm' project to a framework based entirely on JavaScript, Html and Css. It uses the WebGPU API to take advantage of graphical performance in the browser and executes a pre-trained model to solve questions, all directly on the client side, without the need for external servers."
+    }
+}
