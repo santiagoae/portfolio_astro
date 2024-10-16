@@ -1,0 +1,84 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Badge from "../components/Badge.astro";
+import SocialBadge from "../components/SocialBadge.astro";
+import LinkedinIcon from "../icons/LinkedinIcon.astro";
+import GithubIcon from "../icons/GithubIcon.astro";
+import MailIcon from "../icons/MailIcon.astro";
+import Experience from "../components/Experience.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import BriefCaseIcon from "../icons/BriefCase.astro";
+import CodeIcon from "../icons/CodeIcon.astro";
+import Projects from "../components/Projects.astro";
+---
+
+<Layout
+  title="Portfolio de Santiago Avendaño Escobar - Desarrollador Frontend con 2+ años de experiencia."
+  description="Contrata a Santiago para crear tu aplicación web. Desarrollador frontend especializado en crear aplicaciones únicas."
+>
+  <main>
+    <SectionContainer class="py-44 pb-20">
+      <img
+        class="rounded-full size-20 mb-4"
+        src="https://avatars.githubusercontent.com/u/54405879?v=4"
+        alt="santiago photo"
+      />
+
+      <h1
+        class="text-white text-1xl lg:text-5xl font-bold flex gap-x-4 pb-2 lg:pb-4"
+      >
+        Hey, soy Santiago AE
+        <a
+          href="https://linkedin.com/in/santiagoae-webdeveloper"
+          target="_blank"
+          rel="noopener"
+          class="flex items-center"
+        >
+          <Badge>Disponible para trabajar</Badge>
+        </a>
+      </h1>
+
+      <h2 class="text-xl lg:text-2xl text-pretty max-w-[700px]">
+        +2 años de experiencia. Desarrollador Frontend.
+        <span class="text-yellow-400"> De Medellín, Colombia.</span>
+        <span class="opacity-60">
+          No todo es codificar, tambien comparto con la comunidad y me informo
+          con los mejores creadores de contenido dev.
+        </span>
+      </h2>
+
+      <nav class="flex gap-2 mt-6 flex-wrap">
+        <SocialBadge ref="https://linkedin.com/in/santiagoae-webdeveloper">
+          <LinkedinIcon class="size-4" />
+          Linkedin
+        </SocialBadge>
+
+        <SocialBadge ref="https://github.com/santiagoae">
+          <GithubIcon class="size-4" />
+          Github
+        </SocialBadge>
+
+        <SocialBadge ref="mailto:santiagoavn@gmail.com">
+          <MailIcon class="size-5" />
+          santiagoavn@gmail.com
+        </SocialBadge>
+      </nav>
+    </SectionContainer>
+
+    <SectionContainer id="experiencia">
+      <h2 class="text-2xl font-semibold mb-6 flex gap-x-2 items-center">
+        <BriefCaseIcon class="size-7" />
+        Experiencia Laboral
+      </h2>
+      <Experience />
+    </SectionContainer>
+
+    <SectionContainer id="experiencia">
+      <h2 class="text-2xl font-semibold mb-6 flex gap-x-2 items-center">
+        <CodeIcon class="size-7" />
+        Proyectos Personales
+      </h2>
+      <Projects />
+    </SectionContainer>
+  </main>
+</Layout>
