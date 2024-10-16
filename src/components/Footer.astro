@@ -1,17 +1,12 @@
 ---
+import { translateWithI18n } from "@i18n/translateWithI18n";
 
+const { currentLocale = "es" } = Astro;
+const I18N = translateWithI18n(currentLocale);
 ---
 
 <footer class="py-2 flex flex-col items-center">
   <h3 class="text-sm">Santiago Avendaño Escobar - Frontend Developer</h3>
-  <p class="text-xs opacity-50">
-    agradecimientos especiales a <a
-      href="https://x.com/midudev"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="text-purple-400">midudev</a
-    >
-    gran creador de contenido.
-  </p>
+  <p class="text-xs opacity-50" set:html={I18N.greetings} />
   <span class="text-xs opacity-50">v1.0 - 2024</span>
 </footer>

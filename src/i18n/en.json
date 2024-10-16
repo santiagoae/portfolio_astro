@@ -1,4 +1,7 @@
 {
+    "headerTitleOne": "Home",
+    "headerTitleTwo": "Experience",
+    "headerTitleThree": "Projects",
     "title": "Portfolio of Santiago Avendaño Escobar - Frontend Developer with 2+ years of experience.",
     "description": "Hire Santiago to create your web application. Frontend developer specialized in creating unique applications.",
     "mainTitle": "Hey, I'm Santiago AE",
@@ -7,17 +10,31 @@
     "experienceTitle":"Professional Experience",
     "projectsTitle":"Personal Projects",
     "experiences": {
-        "date":"Currently...",
-        "title": "Garantias Comunitarias",
-        "reponsabilities": "1. Design and refine the frontend of an internal application with the help of Angular, integrating modules and dynamic functionalities that adapt and evolve over time, ensuring robust and flexible solutions aligned with business objectives.\n\n2. Develop and maintain APIs with Laravel, handling server logic and ensuring efficient data exchange using the Eloquent ORM to interact transparently with the database, creating and managing migrations that ensure consistent and scalable structures in development environments.\n\n3.Manage MySQL databases, ensuring efficient queries and data integrity.\n\n4. Lead from the technological area the integration with Belltech's services.\n\n5. Assist in decision making within the technology leadership group for new changes and improvements within the company. ",
-        "goals": "1. I migrated the application from Angular 16 to Angular 17, adapting the standalone concept at a general level, in addition, I implemented the use of inject for dependency injection and initiated the use of signals to improve the performance of the application.\n\n2. I generated migrations that help to maintain the database structure over time, in addition, I implemented new endpoints and connections to external services maintaining security with jwt and integrated external applications through webhooks.\n\n3. I developed custom queries to obtain information more accurately and optimized access by creating views that improve performance and speed data retrieval.\n\n4. Implemented along with a ux team, an early warning call bot that is under continuous development, for compliance requirements.\n\n5. I contributed in the implementation of an agile methodology for efficient requirements management."
+        "one": {
+            "date":"Currently...",
+            "title": "Garantias Comunitarias",
+            "reponsabilities": "1. Design and refine the frontend of an internal application with the help of Angular, integrating modules and dynamic functionalities that adapt and evolve over time, ensuring robust and flexible solutions aligned with business objectives.\n\n2. Develop and maintain APIs with Laravel, handling server logic and ensuring efficient data exchange using the Eloquent ORM to interact transparently with the database, creating and managing migrations that ensure consistent and scalable structures in development environments.\n\n3.Manage MySQL databases, ensuring efficient queries and data integrity.\n\n4. Lead from the technological area the integration with Belltech's services.\n\n5. Assist in decision making within the technology leadership group for new changes and improvements within the company. ",
+            "goals": "1. I migrated the application from Angular 16 to Angular 17, adapting the standalone concept at a general level, in addition, I implemented the use of inject for dependency injection and initiated the use of signals to improve the performance of the application.\n\n2. I generated migrations that help to maintain the database structure over time, in addition, I implemented new endpoints and connections to external services maintaining security with jwt and integrated external applications through webhooks.\n\n3. I developed custom queries to obtain information more accurately and optimized access by creating views that improve performance and speed data retrieval.\n\n4. Implemented along with a ux team, an early warning call bot that is under continuous development, for compliance requirements.\n\n5. I contributed in the implementation of an agile methodology for efficient requirements management."
+        },
+        "two":{
+            "date":"oct. 2022 - Apr.2023 - 7 months",
+            "title": "Tigo",
+            "reponsabilities": "1. Plan and execute digitization strategies for the processes assigned to the technology area using scrum methodology.\n\n2. Manage the database of one of the ETL levels to filter the corresponding information of the area with the use of Mysql.\n\n3. Support and instruct the technologist in training for the development of their assigned functions.\n\n",
+            "goals": "1. Performed automated processes that helped in the timely delivery of jobs to consultants which optimized the delivery and management of orders with the help of Angular and Mysql.\n\n2. Developed an application in Angular with the help of Slim for the backend which monitored the nationwide audit of the technicians' tools, with measurable data to improve the quality of service.\n\n3. I led the migration of one of the most important applications of the area, which reached the first phase in 15 days by uploading the Slim version.\n\n4. I developed a log to control the operations of high relevance with the topics to be addressed during the day using Angular, slim and mysql for a dynamic connection.\n\n5. I guided a person to increase productivity and continuous learning in the assigned area, achieving to optimize the delivery times of the different processes derived with the help of kanban boards.\n"
+        }       
     },
-    "project_one":{
-        "title":"Spotify Clone",
-        "description": "This project is a Spotify clone developed using Astro, a framework that facilitates the integration of various frontend libraries in an agnostic manner, such as React, Svelte, among others. Astro allows for optimized building of applications, combining the best of each technology according to the project's needs."
+    "projects":{
+        "one":{
+            "title":"Spotify Clone",
+            "description": "This project is a Spotify clone developed using Astro, a framework that facilitates the integration of various frontend libraries in an agnostic manner, such as React, Svelte, among others. Astro allows for optimized building of applications, combining the best of each technology according to the project's needs."
+        },
+        "two":{
+            "title":"GPT Model",
+            "description": "This project is a ChatGPT clone that adapts the 'web-llm' project to a framework based entirely on JavaScript, Html and Css. It uses the WebGPU API to take advantage of graphical performance in the browser and executes a pre-trained model to solve questions, all directly on the client side, without the need for external servers."
+        }
     },
-    "project_two":{
-        "title":"GPT Model",
-        "description": "This project is a ChatGPT clone that adapts the 'web-llm' project to a framework based entirely on JavaScript, Html and Css. It uses the WebGPU API to take advantage of graphical performance in the browser and executes a pre-trained model to solve questions, all directly on the client side, without the need for external servers."
-    }
+    "experencieItemTitle": "Responsabilities:",
+    "experienceItemGoalTitle": "Goals:",
+    "experienceItemTagsTitle": "Tech Skills",
+    "greetings": "greetings to <a href='https://x.com/midudev' target='_blank' rel='noopener noreferrer' class='text-purple-400'>midudev</a> great content creator."
 }

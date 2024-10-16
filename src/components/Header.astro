@@ -1,14 +1,17 @@
 ---
+import { translateWithI18n } from "@i18n/translateWithI18n";
 
+const { currentLocale = "es" } = Astro;
+const I18N = translateWithI18n(currentLocale);
 ---
 
 <header
   class="flex justify-center items-center py-5 w-full xl:w-[1120px] mx-auto"
 >
   <nav class="flex flex-row gap-x-10 opacity-80">
-    <a href="#top">Inicio</a>
-    <a href="#experiencia">Experiencia</a>
-    <a href="#proyectos">Proyectos</a>
+    <a href="#top">{I18N.headerTitleOne}</a>
+    <a href="#experiencia">{I18N.headerTitleTwo}</a>
+    <a href="#proyectos">{I18N.headerTitleThree}</a>
     <!-- <a href="#sobre-mi">Sobre mi</a>
     <a href="#contacto">Contacto</a> -->
   </nav>

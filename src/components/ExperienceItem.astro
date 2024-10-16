@@ -1,7 +1,9 @@
 ---
 import StackBadge from './StackBadge.astro';
 import { TAGS } from '../utils/tags';
-import type { ITag } from '../interfaces/tags.interface';
+import type { ITag } from '@interfaces/tags.interface';
+import type { II18N } from '@interfaces/i18n.interface';
+
 interface Props {
   date: string;
   title: string;
@@ -9,8 +11,9 @@ interface Props {
   goals: string;
   selectedTags?: ITag[];
   tags?:boolean;
+  I18N: II18N;
 }
-const { date, title, responsabilities, goals, selectedTags, tags } = Astro.props;
+const { date, title, responsabilities, goals, selectedTags, tags, I18N } = Astro.props;
 ---
 
 <div
@@ -23,14 +26,14 @@ const { date, title, responsabilities, goals, selectedTags, tags } = Astro.props
   {title}
 </h3>
 <p class="mb-4 text-base font-normal text-pretty whitespace-pre">
-  Responsabilidades:
-  {responsabilities}
-  Logros:
+  {I18N.experencieItemTitle} <br><br>
+  {responsabilities} <br><br>
+  {I18N.experienceItemGoalTitle} <br><br>
   {goals}
 </p>
 {
   tags && (
-    <p class="mb-2">Pila Técnica</p>
+    <p class="mb-2">{I18N.experienceItemTagsTitle}</p>
     <article class="flex gap-x-2">
       <StackBadge className={TAGS.angular.className}>
         {TAGS.angular.name}
@@ -73,7 +76,7 @@ const { date, title, responsabilities, goals, selectedTags, tags } = Astro.props
 }
 {
   selectedTags?.length && (
-    <p class="mb-2">Pila Técnica</p>
+    <p class="mb-2">{I18N.experienceItemTagsTitle}</p>
     <article class="flex gap-x-2">
       {
         selectedTags.map(tag => (

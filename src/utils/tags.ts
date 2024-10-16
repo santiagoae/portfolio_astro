@@ -13,7 +13,7 @@ import SvelteIcon from "@icons/SvelteIcon.astro";
 import JavascriptIcon from "@icons/JavascriptIcon.astro";
 import HtmlIcon from "@icons/HtmlIcon.astro";
 import CssIcon from "@icons/CssIcon.astro";
-import type { ITags } from "../interfaces/tags.interface";
+import type { ITags } from "@interfaces/tags.interface";
 
 
 export const TAGS: ITags = {
