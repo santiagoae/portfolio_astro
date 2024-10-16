@@ -1,18 +1,18 @@
-import LaravelIcon from "../icons/LaravelIcon.astro";
-import AngularIcon from "../icons/AngularIcon.astro";
-import TypescriptIcon from "../icons/TypescriptIcon.astro";
-import PhpIcon from "../icons/PhpIcon.astro";
-import MysqlIcon from "../icons/MysqlIcon.astro";
-import TailwindIcon from "../icons/TailwindIcon.astro";
-import BootstrapIcon from "../icons/BootstrapIcon.astro";
-import GitIcon from "../icons/GitIcon.astro";
-import GithubIcon from "../icons/GithubIcon.astro";
-import ReactIcon from "../icons/ReactIcon.astro";
-import AstroIcon from "../icons/AstroIcon.astro";
-import SvelteIcon from "../icons/SvelteIcon.astro";
-import JavascriptIcon from "../icons/JavascriptIcon.astro";
-import HtmlIcon from "../icons/HtmlIcon.astro";
-import CssIcon from "../icons/CssIcon.astro";
+import LaravelIcon from "@icons/LaravelIcon.astro";
+import AngularIcon from "@icons/AngularIcon.astro";
+import TypescriptIcon from "@icons/TypescriptIcon.astro";
+import PhpIcon from "@icons/PhpIcon.astro";
+import MysqlIcon from "@icons/MysqlIcon.astro";
+import TailwindIcon from "@icons/TailwindIcon.astro";
+import BootstrapIcon from "@icons/BootstrapIcon.astro";
+import GitIcon from "@icons/GitIcon.astro";
+import GithubIcon from "@icons/GithubIcon.astro";
+import ReactIcon from "@icons/ReactIcon.astro";
+import AstroIcon from "@icons/AstroIcon.astro";
+import SvelteIcon from "@icons/SvelteIcon.astro";
+import JavascriptIcon from "@icons/JavascriptIcon.astro";
+import HtmlIcon from "@icons/HtmlIcon.astro";
+import CssIcon from "@icons/CssIcon.astro";
 import type { ITags } from "../interfaces/tags.interface";
 
 
