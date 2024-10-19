@@ -6,7 +6,12 @@ const I18N = translateWithI18n(currentLocale);
 ---
 
 <footer class="py-2 flex flex-col items-center">
-  <h3 class="text-sm">Santiago Avendaño Escobar - Frontend Developer</h3>
-  <p class="text-xs opacity-50" set:html={I18N.greetings} />
+  <h3 class="text-xs sm:text-sm">
+    Santiago Avendaño Escobar - Frontend Developer
+  </h3>
+  <p
+    class="text-center sm:text-left text-xs opacity-50"
+    set:html={I18N.greetings}
+  />
   <span class="text-xs opacity-50">v1.0 - 2024</span>
 </footer>
