@@ -34,7 +34,7 @@ const { date, title, responsabilities, goals, selectedTags, tags, I18N } = Astro
 {
   tags && (
     <p class="mb-2">{I18N.experienceItemTagsTitle}</p>
-    <article class="flex gap-x-2">
+    <article class="flex flex-wrap gap-2">
       <StackBadge className={TAGS.angular.className}>
         {TAGS.angular.name}
         <TAGS.angular.icon class="size-4"/>
@@ -77,7 +77,7 @@ const { date, title, responsabilities, goals, selectedTags, tags, I18N } = Astro
 {
   selectedTags?.length && (
     <p class="mb-2">{I18N.experienceItemTagsTitle}</p>
-    <article class="flex gap-x-2">
+    <article class="flex flex-wrap gap-2">
       {
         selectedTags.map(tag => (
             <StackBadge className={tag.className}>
