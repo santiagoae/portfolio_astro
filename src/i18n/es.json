@@ -6,7 +6,7 @@
     "description": "Contrata a Santiago para crear tu aplicación web. Desarrollador frontend especializado en crear aplicaciones únicas.",
     "mainTitle": "Hey, soy Santiago AE",
     "mainBadgeTitle": "Disponible para trabajar",
-    "mainDescription": "+2 años de experiencia. Desarrollador Frontend.<span class='text-yellow-400'> De Medellín, Colombia.</span> <span class='opacity-60'>No todo es codificar, tambien comparto con la comunidad y me informo con los mejores creadores de contenido dev.</span>",
+    "mainDescription": "+2 años de experiencia. Desarrollador Frontend.<span class='text-yellow-400'> De Medellín, Colombia.</span> <span style='opacity: 0.6'>No todo es codificar, tambien comparto con la comunidad y me informo con los mejores creadores de contenido dev.</span>",
     "experienceTitle":"Experiencia Laboral",
     "projectsTitle":"Proyectos Personales",
     "experiences": {
@@ -36,5 +36,5 @@
     "experencieItemTitle": "Responsabilidades:",
     "experienceItemGoalTitle": "Logros:",
     "experienceItemTagsTitle": "Pila Técnica",
-    "greetings": "agradecimientos especiales a <a href='https://x.com/midudev' target='_blank' rel='noopener noreferrer' class='text-purple-400'>midudev</a> gran creador de contenido."
+    "greetings": "agradecimientos especiales a <a href='https://x.com/midudev' target='_blank' rel='noopener noreferrer' style='color: rgb(192 132 252)'>midudev</a> gran creador de contenido."
 }

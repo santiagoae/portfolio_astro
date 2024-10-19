@@ -6,7 +6,7 @@
     "description": "Hire Santiago to create your web application. Frontend developer specialized in creating unique applications.",
     "mainTitle": "Hey, I'm Santiago AE",
     "mainBadgeTitle": "Available for work",
-    "mainDescription": "+2 years of experience. Frontend Developer.<span class='text-yellow-400'> From Medellín, Colombia.</span> <span class='opacity-60'>Not everything is coding, also I share with the community and I inform with the best content creators devs.</span>",
+    "mainDescription": "+2 years of experience. Frontend Developer.<span class='text-yellow-400'> From Medellín, Colombia.</span> <span style='opacity: 0.6'>Not everything is coding, also I share with the community and I inform with the best content creators devs.</span>",
     "experienceTitle":"Professional Experience",
     "projectsTitle":"Personal Projects",
     "experiences": {
@@ -36,5 +36,5 @@
     "experencieItemTitle": "Responsabilities:",
     "experienceItemGoalTitle": "Goals:",
     "experienceItemTagsTitle": "Tech Skills",
-    "greetings": "greetings to <a href='https://x.com/midudev' target='_blank' rel='noopener noreferrer' class='text-purple-400'>midudev</a> great content creator."
+    "greetings": "greetings to <a href='https://x.com/midudev' target='_blank' rel='noopener noreferrer' style='color: rgb(192 132 252)'>midudev</a> great content creator."
 }
